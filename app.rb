@@ -1,6 +1,7 @@
 # myapp.rb
-require 'sinatra'
+require 'sinatra/base'
 
+Class MyApp < Sinatra::Application
 get '/' do
   'Hello world!'
 end
